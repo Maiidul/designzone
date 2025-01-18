@@ -1,0 +1,428 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DesignZone - Interior Design & Architecture</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">DesignZone</div>
+    <div class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#process">Process</a>
+      <a href="#contact">Contact</a>
+      <button class="cta-button">Get Quote</button>
+    </div>
+    <div class="mobile-menu-btn">
+      <i class='bx bx-menu'></i>
+    </div>
+  </nav>
+
+  <header id="home">
+    <div class="hero" style="background-image: url('your-image-url.jpg'); background-size: cover; background-position: center;">
+      <h1>Elevating Spaces Through<br/>
+        <span class="typed-text"></span>
+        <span class="cursor">&nbsp;</span>
+      </h1>
+      <p>Creating exceptional interior experiences that inspire and transform lives. Our award-winning designs blend artistry with functionality.</p>
+      <div class="hero-ctas">
+        <button class="cta-button" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})">
+          View Our Portfolio
+        </button>
+        <button class="cta-button secondary" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">
+          Schedule Consultation
+        </button>
+      </div>
+    </div>
+    
+    <div class="hero-graphic">
+      <div class="hero-shape shape-1"></div>
+      <div class="hero-shape shape-2"></div>
+      <div class="hero-image">
+        <div class="floating-card card-1">
+          <i class='bx bxs-home-alt-2'></i>
+          <span>50+ Projects</span>
+        </div>
+        <div class="floating-card card-2">
+          <i class='bx bxs-star'></i>
+          <span>Award Winning</span>
+        </div>
+        <div class="floating-card card-3">
+          <i class='bx bxs-user-check'></i>
+          <span>200+ Clients</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="mouse">
+        <div class="wheel"></div>
+      </div>
+      <div class="arrow-scroll">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="section-header" data-aos="fade-up">
+      <h2>About Us</h2>
+      <p>Discover the story behind DesignZone</p>
+    </div>
+    <div class="about-content">
+      <div class="about-text" data-aos="fade-right">
+        <h3>Our Mission</h3>
+        <p>We are dedicated to creating exceptional interior design experiences that exceed our clients' expectations.Our award-winning team of designers brings a wealth of experience and creativity to every project, ensuring that each space we design is a true masterpiece. From residential sanctuaries to dynamic commercial environments, we take pride in delivering exceptional results that leave a lasting impression.</p>
+      </div>
+      <div class="about-image" data-aos="fade-left">
+        <!-- About section image or graphic -->
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="section-header" data-aos="fade-up">
+      <h2>Our Services</h2>
+      <p>Comprehensive Interior Design Solutions</p>
+    </div>
+    
+    <div class="services-grid">
+      <div class="service-card" data-aos="fade-up">
+        <div class="service-card-front" style="background-image: url('https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1700&q=80')">
+          <h3>Residential Design</h3>
+          <p>Transform your home into a luxurious sanctuary</p>
+        </div>
+        <div class="service-card-back">
+          <h3>Residential Design</h3>
+          <ul>
+            <li>Space Planning</li>
+            <li>Color Consultation</li>
+            <li>Furniture Selection</li>
+            <li>Lighting Design</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card-front" style="background-image: url('https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1700&q=80')">
+          <h3>Commercial Design</h3>
+          <p>Create inspiring workspaces and retail environments</p>
+        </div>
+        <div class="service-card-back">
+          <h3>Commercial Design</h3>
+          <ul>
+            <li>Office Design</li>
+            <li>Retail Spaces</li>
+            <li>Hospitality Design</li>
+            <li>Brand Integration</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card-front" style="background-image: url('https://www.thewowstyle.com/wp-content/uploads/2015/06/beautiful-living-room-home-interior-design-ideas-1024x640.jpg')">
+          <h3>3D Visualization</h3>
+          <p>See your space come to life before construction begins</p>
+        </div>
+        <div class="service-card-back">
+          <h3>3D Visualization</h3>
+          <ul>
+            <li>3D Renderings</li>
+            <li>Virtual Tours</li>
+            <li>Material Selection</li>
+            <li>Layout Planning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="stats">
+    <div class="stats-grid">
+      <div class="stat" data-aos="fade-up">
+        <h3 data-value="50" data-suffix="+">0</h3>
+        <p>Projects Completed</p>
+      </div>
+      
+      <div class="stat" data-aos="fade-up" data-aos-delay="100">
+        <h3 data-value="200" data-suffix="+">0</h3>
+        <p>Happy Clients</p>
+      </div>
+      
+      <div class="stat" data-aos="fade-up" data-aos-delay="200">
+        <h3 data-value="10" data-suffix="years">0</h3>
+        <p>Industry Experience</p>
+      </div>
+      
+      <div class="stat" data-aos="fade-up" data-aos-delay="300">
+        <h3 data-value="95" data-suffix="%">0</h3>
+        <p>Client Satisfaction</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio" class="portfolio-section">
+    <div class="section-header" data-aos="fade-up">
+      <h2>Our Projects</h2>
+      <p>A Showcase of Our Finest Work</p>
+    </div>
+    
+    <div class="portfolio-filter">
+      <button data-category="all" class="active">All Projects</button>
+      <button data-category="residential">Residential</button>
+      <button data-category="commercial">Commercial</button>
+      <button data-category="hospitality">Hospitality</button>
+    </div>
+    
+    <div class="portfolio-grid">
+      <div class="portfolio-item" data-category="residential" data-aos="fade-up" style="background-image: url('https://images.unsplash.com/photo-1618219944342-824e40a13285?ixlib=rb-1.2.1&auto=format&fit=crop&w=1700&q=80')">
+        <div class="portfolio-overlay">
+          <h3>Luxury Home Design</h3>
+          <p>Modern and sleek residential interior design</p>
+        </div>
+      </div>
+      
+      <div class="portfolio-item" data-category="commercial" data-aos="fade-up" data-aos-delay="100" style="background-image: url('https://images.unsplash.com/photo-1497366412874-3415097a27e7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1700&q=80')">
+        <div class="portfolio-overlay">
+          <h3>Office Space Design</h3>
+          <p>Productive and inspiring commercial interior design</p>
+        </div>
+      </div>
+      
+      <div class="portfolio-item" data-category="hospitality" data-aos="fade-up" data-aos-delay="200" style="background-image: url('https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?ixlib=rb-1.2.1&auto=format&fit=crop&w=1700&q=80')">
+        <div class="portfolio-overlay">
+          <h3>Hotel Interior Design</h3>
+          <p>Luxurious and inviting hospitality interior design</p>
+        </div>
+      </div>
+
+      <div class="portfolio-item" data-category="residential" data-aos="fade-up" data-aos-delay="300" style="background-image: url('https://cuttingedgeds.com/wp-content/uploads/2019/11/interior-designer-for-home-and-business-space-1.jpg')">
+        <div class="portfolio-overlay">
+          <h3>Apartment Design</h3>
+          <p>Cozy and functional residential interior design</p>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="hospitality" data-aos="fade-up" data-aos-delay="200" style="background-image: url('https://cuttingedgeds.com/wp-content/uploads/2019/11/center-table.jpg')">
+        <div class="portfolio-overlay">
+          <h3>Hotel Interior Design</h3>
+          <p>Luxurious and inviting hospitality interior design</p>
+        </div>
+      </div>
+      <div class="portfolio-item" data-category="hospitality" data-aos="fade-up" data-aos-delay="200" style="background-image: url('https://cuttingedgeds.com/wp-content/uploads/2019/11/room-partitions.jpg')">
+        <div class="portfolio-overlay">
+          <h3>Hotel Interior Design</h3>
+          <p>Luxurious and inviting hospitality interior design</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials-section">
+    <div class="section-header" data-aos="fade-up">
+      <h2>What Our Clients Say</h2>
+      <p>Real stories from our valued customers</p>
+    </div>
+    
+    <div class="testimonials-container" data-aos="fade-up">
+      <div class="testimonials">
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="client-info">
+              <div class="client-image">
+                <svg viewBox="0 0 100 100">
+                  <circle cx="50" cy="35" r="25" fill="#4A90E2"/>
+                  <circle cx="50" cy="95" r="40" fill="#4A90E2"/>
+                </svg>
+              </div>
+              <div class="client-details">
+                <h4>John Smith</h4>
+                <p>Homeowner, Luxury Home Design Project</p>
+              </div>
+            </div>
+            <div class="quote-icon">
+              <i class='bx bxs-quote-left'></i>
+            </div>
+            <p class="testimonial-text">
+              "DesignZone exceeded our expectations with their exceptional design skills and attention to detail. Our home is now a true reflection of our style and personality."
+            </p>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="client-info">
+              <div class="client-image">
+                <svg viewBox="0 0 100 100">
+                  <circle cx="50" cy="35" r="25" fill="#3B82F6"/>
+                  <circle cx="50" cy="95" r="40" fill="#3B82F6"/>
+                </svg>
+              </div>
+              <div class="client-details">
+                <h4>Jane Doe</h4>
+                <p>Business Owner, Office Space Design Project</p>
+              </div>
+            </div>
+            <div class="quote-icon">
+              <i class='bx bxs-quote-left'></i>
+            </div>
+            <p class="testimonial-text">
+              "The team at DesignZone was professional, creative, and delivered a design that exceeded our expectations. Our new office space is now a hub of productivity and inspiration."
+            </p>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star-half'></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial">
+          <div class="testimonial-content">
+            <div class="client-info">
+              <div class="client-image">
+                <svg viewBox="0 0 100 100">
+                  <circle cx="50" cy="35" r="25" fill="#2563EB"/>
+                  <circle cx="50" cy="95" r="40" fill="#2563EB"/>
+                </svg>
+              </div>
+              <div class="client-details">
+                <h4>Bob Johnson</h4>
+                <p>Hotel Manager, Hotel Interior Design Project</p>
+              </div>
+            </div>
+            <div class="quote-icon">
+              <i class='bx bxs-quote-left'></i>
+            </div>
+            <p class="testimonial-text">
+              "DesignZone brought a new level of luxury and sophistication to our hotel. The design was impeccable, and the service was top-notch. We couldn't be happier with the result."
+            </p>
+            <div class="rating">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="testimonial-nav">
+        <button class="prev-testimonial">
+          <i class='bx bx-chevron-left'></i>
+        </button>
+        <div class="testimonial-dots"></div>
+        <button class="next-testimonial">
+          <i class='bx bx-chevron-right'></i>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <section id="process" class="process-section">
+    <div class="section-header" data-aos="fade-up">
+      <h2>Our Design Process</h2>
+      <p>How we bring your vision to life</p>
+    </div>
+    <div class="process-steps">
+      <div class="process-step" data-aos="fade-right">
+        <div class="step-number">01</div>
+        <h3>Consultation</h3>
+        <p>Initial meeting to understand your vision and requirements</p>
+      </div>
+      <div class="process-step" data-aos="fade-right" data-aos-delay="100">
+        <div class="step-number">02</div>
+        <h3>Concept Design</h3>
+        <p>Creating preliminary designs and space planning</p>
+      </div>
+      <div class="process-step" data-aos="fade-right" data-aos-delay="200">
+        <div class="step-number">03</div>
+        <h3>Development</h3>
+        <p>Refining designs and selecting materials</p>
+      </div>
+      <div class="process-step" data-aos="fade-right" data-aos-delay="300">
+        <div class="step-number">04</div>
+        <h3>Execution</h3>
+        <p>Implementation and project management</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-header" data-aos="fade-up">
+      <h2>Start Your Design Journey</h2>
+      <p>Book a consultation with our design experts</p>
+    </div>
+    
+    <div class="contact-container">
+      <form class="contact-form">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <select required>
+          <option value="">Select Service</option>
+          <option value="residential">Residential Design</option>
+          <option value="commercial">Commercial Design</option>
+          <option value="visualization">3D Visualization</option>
+        </select>
+        <textarea placeholder="Tell us about your project" required></textarea>
+        <button class="cta-button">Schedule Consultation</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>DesignZone</h3>
+        <p>Transforming spaces through luxury interior design</p>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <div class="social-links">
+          <a href="https://facebook.com" target="_blank"><i class='bx bxl-facebook'></i></a>
+          <a href="https://twitter.com" target="_blank"><i class='bx bxl-twitter'></i></a>
+          <a href="https://instagram.com" target="_blank"><i class='bx bxl-instagram'></i></a>
+          <a href="https://linkedin.com" target="_blank"><i class='bx bxl-linkedin'></i></a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2024 DesignZone. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
